@@ -1,0 +1,111 @@
+/* about */
+
+.about{
+  height:auto;
+  background-color:#2d3436;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+}
+
+.about h3 {
+    text-align: center;
+    margin-top: 2.5rem;
+    color: white;
+    font-size: 2.5rem;
+  }
+  
+  .about h2 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: #00b894;
+    font-size: 7rem;
+  }
+  
+  .about p {
+    color: white;
+    font-size: 1.6rem;
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    padding: 10px auto;
+    line-height: 2.5rem;
+    text-indent: 5rem;
+    font-family: "Mukta", sans-serif;
+    
+  }
+  
+  .about h6 {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+    text-align: end;
+    text-decoration: none;
+    margin-top: 1.6rem;
+  }
+  
+  .about h6 a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .about h6 a:hover{
+    color: #00b894;
+  }
+  
+  .vertical {
+    border-left: 0.1rem solid #00b894;
+    height: 40rem;
+    position: absolute;
+    left:0px;
+    top: 4.5rem;
+  }
+  
+  /* recentProjects */
+  .recentProject {
+    height: 48rem;
+    background-color: #2e2d2a;
+    background-image: url("https://www.transparenttextures.com/patterns/buried.png");
+    
+  }
+  
+  .recentProject h1{
+    color: white;
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .carousel-item img{
+    position: relative;
+  left: 20px;
+  
+  }
+  
+  .carousel-control-prev-icon{
+    position: relative;
+    right: 1rem;
+  }
+  
+  .carousel-control-next-icon{
+    position: relative;
+    left: 1rem;
+  }
+  
+  
+  .recentProject h6 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: end; 
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-right: 6rem;
+  }
+  
+   .recentProject h6 a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .recentProject h6 a:hover{
+    color: #00b894;
+  } 
+  

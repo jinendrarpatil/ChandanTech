@@ -1,0 +1,103 @@
+.footer{
+    height: auto;
+    background-color: #2d3436;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    padding-top: 2rem;
+  }
+
+  .icon{
+  color: springgreen;
+  }
+  
+#iconPhone, #iconAddress,#iconBroucher, #iconEmail, #iconBroucher{
+    color:white;
+    font-size: 1.5rem;
+    position: absolute;
+    display: inline-block;
+    margin: 2rem 2rem 0 2rem;
+    font-weight: normal;
+    font-family: "Oswald", sans-serif;
+    text-align: start;
+  }
+
+.sideIcons li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 4.2rem;
+    margin-bottom: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .footerlogo img{
+    margin-top: 1rem;
+    position: relative;
+    left: 4.5rem;
+    height: 20rem;
+    width: 20rem;
+      }
+  
+  .footerlogo h3{
+    color: #e1b12c;
+    font-size: 1.4  rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding:1rem 0;
+  }
+
+.footerlogo li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    color: white;
+    font-size: 1.1rem;
+    margin: 1rem 2.5rem 1rem 2.5rem;
+  }
+  
+  .quickLinks h3{
+  color: #e1b12c;
+  font-size: 1.6rem;
+  padding: 0.88rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  }
+  
+  .quickLinks ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  .quickLinks ul li:hover {
+    color: #00b894;
+    border-radius: 3rem;
+    font-weight: bold;
+    border-radius: 3rem;
+  }
+  
+  .quickLinks ul {
+    padding:0;
+  }
+  .quickLinks ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #footeHrz {
+    border: 0.1rem solid #00fa88;
+    width: 80%;
+    margin-inline:auto ;
+    border-bottom: none;
+  }
+  
+  .footer p{
+    font-size: 1.4rem;
+    color: white;
+    padding:0.5rem;
+    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .125);
+    margin-left: 40%;
+  }

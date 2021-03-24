@@ -1,0 +1,113 @@
+.experties {
+    height: auto;
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  }
+  
+  .experties h1 {
+    color: black;
+    text-align: center;
+    padding-block: 1.5rem;
+    font-size: 3rem;
+  }
+  
+  #hrLine {
+    border: 0.1rem solid black;
+    width: 80%;
+    margin-bottom: 1rem;
+    border-bottom: none;
+  }
+  
+  #vrLine {
+    border: 0.1rem solid black;
+    height: 50rem;
+    position: absolute;
+    left: 10%;
+    margin-top: 3rem;
+    border-right: none;
+  }
+  
+  .cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 2rem 6rem;
+    width: 15rem;
+    height: 15rem;
+    box-shadow: 0.5rem 0.5rem 3rem 0.7rem rgba(141, 238, 154, 0.25),
+      -0.5rem -0.55rem 3rem 0.7rem rgba(62, 133, 83, 0.541);
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 2.5rem;
+  }
+  
+  .card .card_image {
+    width: inherit;
+    height: inherit;
+    
+  }
+  
+  .card .card_image img {
+    margin-top: 0;
+    width: inherit;
+    height: inherit;
+    border-radius: 2.5rem;
+    object-fit: cover;  
+    background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0),
+      );
+      -webkit-filter: blur(0.08rem);
+    -moz-filter: blur(0.08rem);
+    -o-filter: blur(0.08rem);
+    -ms-filter: blur(0.08rem);
+    filter: blur(0.08rem);
+    z-index: 9999;
+      
+  }
+  
+  .card .card_title {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    height: 4rem;
+    color: black;
+    width: 15rem;
+    position: relative;
+    bottom: 12rem;
+    z-index: 1;  
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: bold;
+  }
+  
+  .card .card_title p{
+  background-color: rgba(250, 243, 243, 0.849);
+  /* text-shadow: 0 1px 0 black; */
+  background-size: inherit;
+  }
+  
+  h6 {
+    margin-top: 20rem;
+    margin-right: 1rem;
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 0.5rem 0.5rem 3.0rem 1.5rem rgba(0, 0, 0.5, 0.25),
+      -0.5rem -0.5rem 3rem 1.5rem rgba(0, 0, 0.5, 0.22);
+  }
+  
+  .title-white {
+    color: white;
+  }
+  
+  .title-black {
+    color: black;
+  }

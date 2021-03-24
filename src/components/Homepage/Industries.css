@@ -1,0 +1,100 @@
+.industries{
+    height: auto;
+    background-color:#2d3436;
+    }
+    
+    #industryTitle{
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-bottom: 0.3rem;
+      font-size: 3rem;
+    }
+    
+    #hrz {
+      border: 0.1rem solid #00fa88;
+      width: 80%;
+      margin-top: 0;
+      border-bottom: none;
+    }
+    
+    #vert {
+      border: 0.1rem solid #00fa88;
+      height: 50rem;
+      position: absolute;
+      right: 8%;
+      margin-top: 4rem;
+      border-right: none;
+    }
+    
+    .container1 {
+      height: auto;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 94%;
+      margin: auto;
+    }
+    
+    .industry {
+      height: 22rem;
+      width: 16rem;
+      background-color:#100e17;
+      border-radius: 1rem;
+      box-shadow: -1rem 0 3rem #000;
+      transition: 0.4s ease-out;
+      position: relative;
+      margin: 2rem 4.5rem;
+       
+    }
+    
+    .industry:hover {
+      transform: translateX(-1rem);
+      transition: 0.4s ease-out;
+    }
+    
+    .industry h3{
+      color: #e1b12c;
+      font-size: 1.5rem;
+      font-family: "Source Sans Pro", sans-serif;
+      text-align: center;
+      padding-top: 2rem;
+      line-height: 2rem;
+    }
+    
+    .bar {
+      position: absolute;
+      top: 6rem;
+      left: 2.2rem;
+      height: 0.5rem;
+      width: 11rem;
+    }
+    
+   .industry img{
+      margin-top:1.6rem;
+      border-radius:50%;
+      width:12rem;
+      height:12rem;
+    }
+    .emptybar {
+      background-color: #2e3033;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .filledbar {
+      position: absolute;
+      top: 0rem;
+      z-index: 3;
+      width: 2.5rem;
+      height: 100%;
+      background: rgb(0,154,217);
+      background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+      transition: 0.6s ease-out;
+    }
+    
+    .industry:hover .filledbar {
+      width: 11rem;
+      transition: 0.4s ease-out;
+    }
+    

@@ -1,0 +1,80 @@
+.clietns{
+    height: auto;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  }
+  
+  #clienthrz {
+    border: 0.1rem solid black;
+    width: 85%;
+    margin-top: 0;
+    border-bottom: none;
+  }
+  
+  #clientvert {
+    border: 0.1rem solid black;
+    height: 30rem;
+    position: absolute;
+    left: 10%;
+    margin-top: 4rem;
+    border-right: none;
+  }
+  
+  #clientTitle{
+    text-align: center;
+    font-size: 4rem;
+    padding:2rem;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(25rem);
+   }
+    100% {
+      transform: translateX(calc(-60rem * 4));
+   }
+  }
+  
+  .slider {
+    background: white;
+    box-shadow: 0 1rem 2rem -0.5rem rgba(0, 0, 0, .125);
+    height: 12rem;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    margin-block: 2rem;
+  }
+  .slider::before, .slider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); 
+    content: "";
+    height: 10rem;
+    position: absolute;
+    width: 20rem;
+    z-index: 2;
+  }
+  .slider::after {
+    right: 100;
+    top: 0;
+  }
+  .slider::before {
+    left: 100;
+    top: 0;
+  } 
+  .slider .slide-track {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(25rem * 14);
+    animation-iteration-count: infinite;
+  }
+  .slider .slide {
+    height: 12rem;
+    width: 20rem;
+  }
+  
+  .slide img{
+    border-radius: 0;
+    margin:2rem 5rem ;
+    height: 6rem;
+    width: 16rem;  
+}
+  
