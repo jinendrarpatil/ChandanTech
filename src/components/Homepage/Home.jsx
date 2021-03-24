@@ -6,7 +6,6 @@ import Experties from "../Homepage/Experties";
 import Industries from "../Homepage/Industries";
 import Clients from "../Homepage/Clients";
 import Footer from "../Homepage/Footer";
-import {Route,Switch} from "react-router-dom";
 
 
 const Home = () => {

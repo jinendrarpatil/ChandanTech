@@ -20,27 +20,27 @@ function Header() {
         <NavLink className="nav-link" exact activeClassName="active_class" to="/">Home</NavLink>
       </li>
       <li className="nav-item ">
-        <NavLink exact className="nav-link" exact activeClassName="active_class" to="/company">Company</NavLink>
+        <NavLink exact className="nav-link" activeClassName="active_class" to="/company">Company</NavLink>
       </li>
       <li className="nav-item dropdown">
         <NavLink className="nav-link dropdown-toggle"  exact activeClassName="active_class" to="/services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Services
         </NavLink>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#">Process Engineering</a>
-          <a className="dropdown-item" href="#">Pipeline Engineering</a>
-          <a className="dropdown-item" href="#">Piping Engineering</a>
-          <a className="dropdown-item" href="#">Safety & Risk Assessment</a>
+          <NavLink className="dropdown-item" to="/services">Process Engineering</NavLink>
+          <NavLink className="dropdown-item" to="/services">Pipeline Engineering</NavLink>
+          <NavLink className="dropdown-item" to="/services">Piping Engineering</NavLink>
+          <NavLink className="dropdown-item" to="/services">Safety & Risk Assessment</NavLink>
           <div className="dropdown-divider"></div>
-          <a className="dropdown-item" href="#">Mechanical Engineering</a>
-          <a className="dropdown-item" href="#">Civil & Structural Engineering</a>
-          <a className="dropdown-item" href="#">Electrical & Instrumentation Engineering</a>
-          <a className="dropdown-item" href="#">Field Instrumentation, Control & Automation</a>
+          <NavLink className="dropdown-item" to="/services">Mechanical Engineering</NavLink>
+          <NavLink className="dropdown-item" to="/services">Civil & Structural Engineering</NavLink>
+          <NavLink className="dropdown-item" to="/services">Electrical & Instrumentation Engineering</NavLink>
+          <NavLink className="dropdown-item" to="/services">Field Instrumentation, Control & Automation</NavLink>
           <div className="dropdown-divider"></div>
-          <a className="dropdown-item" href="#">3D Modeling & Laser Scanning Services</a>
-          <a className="dropdown-item" href="#">Specialty Engineering Services</a>
-          <a className="dropdown-item" href="#">EPC Manpower Supply / PMC Services</a>
-          <a className="dropdown-item" href="#">Technical & Software Training Services</a>
+          <NavLink className="dropdown-item" to="/services">3D Modeling & Laser Scanning Services</NavLink>
+          <NavLink className="dropdown-item" to="/services">Specialty Engineering Services</NavLink>
+          <NavLink className="dropdown-item" to="/services">EPC Manpower Supply / PMC Services</NavLink>
+          <NavLink className="dropdown-item" to="/services">Technical & Software Training Services</NavLink>
         </div>
       </li>
       <li className="nav-item ">

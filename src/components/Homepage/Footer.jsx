@@ -8,7 +8,7 @@ import GetAppIcon from "@material-ui/icons/GetApp";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import CopyrightIcon from "@material-ui/icons/Copyright";
+
 
 function Footer() {
   const year = new Date().getFullYear();
@@ -56,7 +56,7 @@ function Footer() {
             <li>
               <a
                 href="https://www.facebook.com/chandantechsolutions/"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 <FacebookIcon className="icon" fontSize="large" />{" "}
               </a>
@@ -64,7 +64,7 @@ function Footer() {
             <li>
               <a
                 href="https://www.linkedin.com/company/chandan-tech-solution/?originalSubdomain=in"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 <LinkedInIcon className="icon" fontSize="large" />
               </a>
@@ -72,7 +72,7 @@ function Footer() {
             <li>
               <a
                 href="https://api.whatsapp.com/send?phone=919373501010&text=Hello%20ChandanTech%0AI%27m%20a%20visitor%20on%20your%20website%20Need%20to%20talk%20about"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 <WhatsAppIcon className="icon" fontSize="large" />
               </a>
@@ -93,9 +93,7 @@ function Footer() {
             </li>
             <li>
               <NavLink
-                exact
-                exact
-                to="/company"
+  to="/company"
               >
                 Company
               </NavLink>

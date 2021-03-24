@@ -45,6 +45,7 @@
   }
 
   .nav-item:hover{
+    /* background-color: #00b894; */
     border-radius: 0.5rem;
     font-weight: bold;
     text-decoration:underline #00b894;

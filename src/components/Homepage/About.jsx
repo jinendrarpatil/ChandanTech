@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import recentProjects from "./recentProjects";
+import {NavLink} from "react-router-dom";
 
 function About() {
   return (
@@ -32,7 +33,7 @@ function About() {
       <div className="col-lg-6 recentProject">
       <div className="vertical"></div>
       <h1>~ Recent Projects ~</h1>
-        <a href="">
+        <NavLink to="/projects">
           <div
             id="carouselExampleControls"
             className="carousel slide"
@@ -86,7 +87,7 @@ function About() {
               <span className="sr-only">Next</span>
             </a>
           </div>
-        </a>
+        </NavLink>
         <h6>
           <a href="/sections/company.html">Read more> </a>
         </h6>
